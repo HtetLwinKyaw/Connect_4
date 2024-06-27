@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(179, 19, 45), rgb(30, 30, 210)); 
+    color: rgb(123, 238, 188);
+    font-size: 25px;
+    
+
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color:rgb(123, 238, 188);
+    border: 10px solid rgb(9, 101, 63);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgb(9, 101, 63);
+}
+
+.red-piece{
+    background-color: red;
+}
+
+.blue-piece{
+    background-color: blue;
+}
